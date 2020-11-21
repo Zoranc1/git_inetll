@@ -29,3 +29,7 @@ git stash --- hide file in working branch also
 git stash pop --- unhide file
 ---
 git revert 
+---
+git diff COMM-ID1 COMM-ID2
+git diff HEAD .  -- HEAD -means latest commited with . current
+
