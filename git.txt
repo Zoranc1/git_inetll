@@ -1,0 +1,13 @@
+git init
+git status
+git add FILENAME  / add .
+git commit -m 'message'
+git remote add origin https://github.com/Zoranc1/git_intelli
+///
+git remote rm origin  ----- REMOVING OLD ORIGIN TO ADD NEW
+git remote add origin https://github.com/Zoranc1/git_intelli ----NEW
+git config master.remote origin
+git config master.merge refs/heads/master
+/////
+
+git push origin master
