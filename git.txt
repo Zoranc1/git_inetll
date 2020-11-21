@@ -1,0 +1,35 @@
+git init
+git status
+git add FILENAME  / add .
+git commit -m 'message'
+git remote add origin https://github.com/Zoranc1/git_intelli
+
+///
+git remote rm origin  ----- REMOVING OLD ORIGIN TO ADD NEW
+git remote add origin https://github.com/Zoranc1/git_intelli ----NEW
+git config master.remote origin
+git config master.merge refs/heads/master
+/////
+
+git push origin master
+--- CLONE OR DOWNLOAD
+git clone  URL
+---
+git pull origin master   / git pull URL update local repo 
+---
+git branch feature1
+git branch 
+git branch -D NAME OF BRANCH ---- deleting branch 
+git checkout feature2
+git push  origin feture2  / NAME of the BRANCH
+---
+git log  --se a history of repository ---exiting 'q'
+---
+git stash --- hide file in working branch also
+git stash pop --- unhide file
+---
+git revert 
+---
+git diff COMM-ID1 COMM-ID2
+git diff HEAD .  -- HEAD -means latest commited with . current
+
